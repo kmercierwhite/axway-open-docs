@@ -9,6 +9,8 @@ description: Prerequisites and steps you must follow to set up your Docker envir
 
 Drink some water and wash your hands.
 
+Ensure you are ready to start.
+
 Your system must meet the following prerequisites before you can run the scripts to build and deploy API Gateway in Docker containers.
 
 ### Set up your Docker environment
