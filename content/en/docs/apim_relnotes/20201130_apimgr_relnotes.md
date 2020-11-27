@@ -16,19 +16,19 @@ Docker deployment is supported on Linux. For a summary of the system requirement
 
 The following new features and enhancements are available in this update.
 
-### Cassandra backup and restore tool
+### Run a script to back up and restore Cassandra
 
-An easy and convenient automated script to backup and restore Cassandra clusters is now included in API Gateway. For more information, see [Apache Cassandra backup and restore](/docs/cass_admin/cassandra_bur).
+An automated script to back up and restore Cassandra clusters is now included in API Gateway. For more information, see [Apache Cassandra backup and restore](/docs/cass_admin/cassandra_bur).
 
-### OpenAPI specification 3 parameter support in API Manager
+### Enhanced support for OAS3 parameters
 
-Support for the OpenAPI specification 3 (OAS3) parameter attributes is now enriched. The allowEmptyValue and explode fields, as well as the free-form parameter definition are all supported in this version of API Manager.
+Support for the OpenAPI specification 3 (OAS3) parameter attributes is now enriched. The `allowEmptyValue` and `explode` fields, as well as the free-form parameter definition are all supported in this version of API Manager.
 
 ### Enhanced API life cycle management for Organization administrators
 
-In the [September 2020](/docs/apim_relnotes/20200930_apimgr_relnotes/#organization-administrators-can-publish-apis) release, we created the `api.manager.orgadmin.selfservice.enabled` system property to allow an Organization administrator to publish and unpublish APIs that were created in their organization without approval from an API Administrator.
+We have [previously](/docs/apim_relnotes/20200930_apimgr_relnotes/#organization-administrators-can-publish-apis) released a system property, `api.manager.orgadmin.selfservice.enabled`, to include additional permissions for an Organization Administrator to publish and unpublish APIs that were created in their organization without approval from an API Administrator.
 
-In this release, we enhanced the property with new API life cycle events (deprecate, undeprecate, upgrade, and grant access to APIs), which will be made available to an Organization administrator when `api.manager.orgadmin.selfservice.enabled` is set to True.
+In this release, additional API life cycle events (deprecate, undeprecate, upgrade, and grant access to APIs) will also be enabled for an Organization administrator when `api.manager.orgadmin.selfservice.enabled` is set to True.
 
 For more information, see [System property changes](/docs/apim_reference/system_props/).
 
