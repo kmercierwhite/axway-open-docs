@@ -39,6 +39,9 @@ CSP header is added for both API Gateway and API Manager. Its value, or policy, 
 * For API Gateway: Variable `env.MANAGEMENT.CONTENTSECURITYPOLICY`, in the `_apigateway/conf/envSettings.props_` file.
 * For API Manager: Variable `env.SERVICES.CONTENTSECURITYPOLICY`, in the `_apigateway/groups/{group-id}/{instance-id}/conf/envSettings.props_` file.
 
+Note: Please review the contents of the default Content Security Policy as per requirements.
+
+
 ### YAML configuration store (Technical preview capability)
 
 This update includes bug fixes and enhanced functionality for YAML configuration as follows:
