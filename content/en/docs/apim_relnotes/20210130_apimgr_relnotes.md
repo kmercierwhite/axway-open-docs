@@ -41,7 +41,6 @@ CSP header is added for both API Gateway and API Manager. Its value, or policy, 
 
 Note: Please review the contents of the default Content Security Policy as per requirements.
 
-
 ### YAML configuration store (Technical preview capability)
 
 This update includes bug fixes and enhanced functionality for YAML configuration as follows:
