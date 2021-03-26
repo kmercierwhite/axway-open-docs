@@ -30,7 +30,7 @@ For more information, see [Configure the API Manager request rate limiter](/docs
 
 ### HTTP strict transport security profile
 
-HTTP Strict Transport Security (HSTS) is a browser security mechanism, implemented by way of an HTTP `Strict-Transport-Security` response header, which allows the connection with a website through secure connections (HTTPS) only. HSTS enforces security on applications by mitigating attacks such as man-in-the-middle, insecure link referencing, and invalid certificates.
+In order to be compliant with security best practices, HTTP Strict Transport Security (HSTS) support has been added to API Gateway. Profiles can be configured within Policy Studio.
 
 For more information, see [Configure HTTP strict transport security](/docs/apim_policydev/apigw_gw_instances/configure_http_strict_transport_security).
 
